@@ -1,0 +1,33 @@
+.homePageContainer {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  /* scroll-snap-type: x proximity; */
+  /* -webkit-overflow-scrolling: touch; */
+  gap: 1rem;
+  /* width: 300vw; */
+  height: auto;
+  position: relative;
+}
+
+.homePageContainer > div {
+  /* flex: 0 0 auto; */
+  /* scroll-snap-align: start; */
+  flex: none;
+  /* display: flex; */
+  /* width: 100vw; */
+  width: 100vw;
+  /* min-width: 100vw; */
+  height: auto;
+
+  @apply relative z-50;
+}
+@media screen and (min-width: 640px) {
+  .homePageContainer {
+    height: 100vh;
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+  .homePageContainer > div {
+    height: 100vh;
+  }
+}

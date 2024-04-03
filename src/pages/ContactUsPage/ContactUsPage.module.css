@@ -1,0 +1,7 @@
+.contactUsPageContainer {
+}
+
+.contactUsPageContainer input,
+.contactUsPageContainer textarea {
+  @apply bg-transparent border-0.5 border-secondary-light border-opacity-60 rounded-sm w-full px-3 py-1;
+}

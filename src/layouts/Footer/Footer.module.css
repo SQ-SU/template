@@ -1,0 +1,3 @@
+.footerContainer ul li > p {
+  @apply text-secondary-light font-bold mb-6;
+}
